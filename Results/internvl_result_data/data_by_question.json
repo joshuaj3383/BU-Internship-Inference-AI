@@ -1,0 +1,78 @@
+{
+  ".ipynb_checkpoints": {
+    "coarse": {},
+    "granular": {}
+  },
+  "q1": {
+    "coarse": {
+      "jta": 34.66,
+      "kitti": 34.12
+    },
+    "granular": {
+      "jta": 32.26,
+      "kitti": 24.15
+    }
+  },
+  "q2": {
+    "coarse": {
+      "coco": 26.22,
+      "cityscapes": 19.63
+    },
+    "granular": {
+      "coco": 19.71,
+      "cityscapes": 17.18
+    }
+  },
+  "q3": {
+    "coarse": {
+      "objectron": 17.89,
+      "3d_future": 20.26
+    },
+    "granular": {
+      "3d_future": 17.7,
+      "objectron": 18.4
+    }
+  },
+  "q4": {
+    "coarse": {
+      "get_3d": 19.87,
+      "omniobject3d": 8.51,
+      "shapenet": 15.88
+    },
+    "granular": {
+      "omniobject3d": 4.38,
+      "get_3d": 6.77,
+      "shapenet": 7.0
+    }
+  },
+  "q5": {
+    "coarse": {
+      "3d_future": 18.13,
+      "nocs_real": 9.42
+    },
+    "granular": {
+      "3d_future": 12.65,
+      "nocs_real": 10.46
+    }
+  },
+  "q6": {
+    "coarse": {
+      "get_3d": 69.12,
+      "shapenet": 80.66,
+      "omniobject3d": 32.79
+    },
+    "granular": {
+      "get_3d": 20.52,
+      "shapenet": 22.55,
+      "omniobject3d": 11.48
+    }
+  },
+  "q7": {
+    "coarse": {
+      "coco_space_sea": 5.39
+    },
+    "granular": {
+      "coco_space_sea": 10.48
+    }
+  }
+}

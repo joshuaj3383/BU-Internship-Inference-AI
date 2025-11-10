@@ -1,0 +1,33 @@
+image_name,ground_truth,model_prediction,is_correct,options_map,prompt,full_response,reasoning
+img_449.png,180 degrees or facing away from the camera,30 degrees left or slightly left from the camera's axis of view,False,"{'A': '180 degrees or facing away from the camera', 'B': ""30 degrees right or slightly right from the camera's axis of view"", 'C': 'Cannot be determined', 'D': '0 degrees or directly facing the camera', 'E': ""30 degrees left or slightly left from the camera's axis of view""}","TASK: Identify the precise orientation of Object A's front-facing surface from the camera's viewpoint.
+
+CONTEXT: Object A is marked with a bounding box in the image. You will identify its front-facing surface orientation based on inherent structural features.
+
+Please analyze this image using these steps:
+1. Identify Object A and establish its front-facing surface
+2. Determine the angular orientation of this surface relative to the camera
+3. Compare with the provided options
+4. Select the most appropriate answer
+5. Explain your reasoning with specific visual evidence
+
+OPTIONS:
+A. 180 degrees or facing away from the camera
+B. 30 degrees right or slightly right from the camera's axis of view
+C. Cannot be determined
+D. 0 degrees or directly facing the camera
+E. 30 degrees left or slightly left from the camera's axis of view
+
+FORMAT YOUR RESPONSE AS:""answer"": ""Letter/number of chosen option"",
+  ""reasoning"": ""Step-by-step explanation citing specific visual evidence""
+
+EXAMPLES:
+- A person whose body is facing the camera would be ""0 degrees""
+- A car with its headlights angled slightly to your left would be ""30 degrees left""
+- A car with its headlights angled slightly to your right would be ""30 degrees right""
+- A person with their back to the camera would be ""180 degrees""
+, -An object without clear front/back distinction would be ""Cannot be determined""","```json
+{
+  ""answer"": ""E"",
+  ""reasoning"": ""Object A, which is a bicycle, is positioned in such a way that its front wheel is angled slightly to the left from the camera's perspective. This suggests a 30 degrees left orientation. The visual evidence includes the angle at which the bicycle's front wheel is visible, indicating it is not directly facing the camera (0 degrees) or facing away (180 degrees). The slight tilt to the left is consistent with option E.""
+}
+```",

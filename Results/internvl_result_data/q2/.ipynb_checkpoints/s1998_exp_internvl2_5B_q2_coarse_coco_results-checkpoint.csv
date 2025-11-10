@@ -1,0 +1,31 @@
+image_name,ground_truth,model_prediction,is_correct,options_map,prompt,full_response,reasoning
+000000000034.jpg,Rightward relative to the camera plane,Rightward relative to the camera plane,True,"{'A': 'Toward the camera', 'B': 'Leftward relative to the camera plane', 'C': ""Can't be determined"", 'D': 'Rightward relative to the camera plane', 'E': 'Away from the camera'}","TASK: Determine which direction Object A's front-facing surface is oriented from the camera's viewpoint.
+
+CONTEXT: Object A is marked with a bounding box in the image. You will identify its front-facing surface orientation based on inherent structural features.
+
+Please analyze this image using these steps:
+1. Identify Object A and establish its front-facing surface
+2. Determine the direction this surface is oriented relative to the camera
+3. Compare with the provided options
+4. Select the most appropriate answer
+5. Explain your reasoning with specific visual evidence
+OPTIONS:
+A. Toward the camera
+B. Leftward relative to the camera plane
+C. Can't be determined
+D. Rightward relative to the camera plane
+E. Away from the camera
+FORMAT YOUR RESPONSE AS:
+  ""answer"": ""Letter/number of chosen option"",
+  ""reasoning"": ""Step-by-step explanation citing specific visual evidence""
+
+EXAMPLES:
+- If you see a car with its headlights directly pointing toward the camera, select ""Toward the camera""
+- If you see a person with their back to the camera, select ""Away from the camera""
+","answer"": ""D. Rightward relative to the camera plane"",
+""reasoning"": ""Step-by-step explanation citing specific visual evidence:
+1. Object A is identified as the zebra in the image.
+2. The zebra's head is turned downward, grazing on the grass, which indicates its front-facing surface is oriented toward the camera.
+3. The grass is visible in front of the zebra, confirming that the zebra's head is facing the camera.
+4. Comparing with the provided options, the orientation is rightward relative to the camera plane.
+5. The visual evidence shows the zebra's head and neck are directed toward the camera, confirming the answer is D. Rightward relative to the camera plane.""",

@@ -1,0 +1,37 @@
+{
+  ".ipynb_checkpoints": {},
+  "q1": {
+    "jta": {
+      "coarse": 35.11,
+      "granular": 32.68
+    },
+    "kitti": {
+      "granular": 24.4,
+      "coarse": 34.48
+    }
+  },
+  "q2": {
+    "coco": {
+      "coarse": 26.46,
+      "granular": 19.89
+    },
+    "cityscapes": {
+      "coarse": 20.04,
+      "granular": 17.54
+    }
+  },
+  "q3": {
+    "objectron": {
+      "coarse": 18.2,
+      "granular": 18.72
+    },
+    "future": {
+      "3d": 17.87
+    }
+  },
+  "q4": {
+    "3d": {
+      "get": 19.97
+    }
+  }
+}

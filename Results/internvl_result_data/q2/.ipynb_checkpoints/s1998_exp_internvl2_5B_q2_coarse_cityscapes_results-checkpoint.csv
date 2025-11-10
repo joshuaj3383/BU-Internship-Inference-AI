@@ -1,0 +1,32 @@
+image_name,ground_truth,model_prediction,is_correct,options_map,prompt,full_response,reasoning
+img_449.png,Away from the camera,Leftward relative to the camera plane,False,"{'A': 'Leftward relative to the camera plane', 'B': 'Rightward relative to the camera plane', 'C': 'Toward the camera', 'D': 'Away from the camera', 'E': ""Can't be determined""}","TASK: Determine which direction Object A's front-facing surface is oriented from the camera's viewpoint.
+
+CONTEXT: Object A is marked with a bounding box in the image. You will identify its front-facing surface orientation based on inherent structural features.
+
+Please analyze this image using these steps:
+1. Identify Object A and establish its front-facing surface
+2. Determine the direction this surface is oriented relative to the camera
+3. Compare with the provided options
+4. Select the most appropriate answer
+5. Explain your reasoning with specific visual evidence
+OPTIONS:
+A. Leftward relative to the camera plane
+B. Rightward relative to the camera plane
+C. Toward the camera
+D. Away from the camera
+E. Can't be determined
+FORMAT YOUR RESPONSE AS:
+  ""answer"": ""Letter/number of chosen option"",
+  ""reasoning"": ""Step-by-step explanation citing specific visual evidence""
+
+EXAMPLES:
+- If you see a car with its headlights directly pointing toward the camera, select ""Toward the camera""
+- If you see a person with their back to the camera, select ""Away from the camera""
+","answer"": ""A"",
+""reasoning"": ""Step-by-step explanation citing specific visual evidence
+
+1. Identify Object A: Object A is marked with a green bounding box and is a dog.
+2. Determine the direction this surface is oriented relative to the camera: The dog is facing leftward from the camera's viewpoint.
+3. Compare with the provided options: The dog's orientation matches option A, ""Leftward relative to the camera plane.""
+4. Select the most appropriate answer: Option A is the correct choice.
+5. Explain your reasoning with specific visual evidence: The dog is positioned on the left side of the image, and its head and front paws are pointing towards the left side of the frame, indicating that its front-facing surface is oriented leftward relative to the camera.",

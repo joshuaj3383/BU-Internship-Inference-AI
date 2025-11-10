@@ -1,0 +1,78 @@
+{
+  ".ipynb_checkpoints": {},
+  "data.json": {},
+  "q1": {
+    "jta": {
+      "coarse": 34.7,
+      "granular": 32.3
+    },
+    "kitti": {
+      "granular": 24.18,
+      "coarse": 34.16
+    }
+  },
+  "q2": {
+    "coco": {
+      "coarse": 26.24,
+      "granular": 19.73
+    },
+    "cityscapes": {
+      "coarse": 19.67,
+      "granular": 17.21
+    }
+  },
+  "q3": {
+    "objectron": {
+      "coarse": 17.92,
+      "granular": 18.43
+    },
+    "3d_future": {
+      "coarse": 20.28,
+      "granular": 17.72
+    }
+  },
+  "q4": {
+    "get_3d": {
+      "coarse": 19.88,
+      "granular": 6.78
+    },
+    "omniobject3d": {
+      "granular": 4.39,
+      "coarse": 8.53
+    },
+    "shapenet": {
+      "coarse": 15.89,
+      "granular": 7.01
+    }
+  },
+  "q5": {
+    "3d_future": {
+      "granular": 12.66,
+      "coarse": 18.15
+    },
+    "nocs_real": {
+      "granular": 10.47,
+      "coarse": 9.42
+    }
+  },
+  "q6": {
+    "get_3d": {
+      "coarse": 69.19,
+      "granular": 20.54
+    },
+    "shapenet": {
+      "coarse": 80.7,
+      "granular": 22.56
+    },
+    "omniobject3d": {
+      "coarse": 32.89,
+      "granular": 11.51
+    }
+  },
+  "q7": {
+    "coco_space_sea": {
+      "coarse": 5.39,
+      "granular": 10.49
+    }
+  }
+}

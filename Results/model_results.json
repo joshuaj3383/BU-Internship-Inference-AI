@@ -1,0 +1,100 @@
+{
+    "QWEN SpatialMM Joshua": [
+        {
+            "QWEN SpatialMM Joshua": "Base",
+            "One Object": 79.88,
+            "Two Objects": 57.97
+        },
+        {
+            "QWEN SpatialMM Joshua": "Tuned",
+            "One Object": 81.27,
+            "Two Objects": 55.12
+        }
+    ],
+    "BLINK - Spatial Relation Dataset": [
+        {
+            "BLINK - Spatial Relation Dataset": "QWEN base",
+            "Test 1": 54.55,
+            "Test 2": 54.55,
+            "Test 3": 55.24,
+            "Mean": 54.78,
+            "S.D.": 0.1058
+        },
+        {
+            "BLINK - Spatial Relation Dataset": "QWEN Finetuned",
+            "Test 1": 51.05,
+            "Test 2": 50.35,
+            "Test 3": 51.75,
+            "Mean": 51.05,
+            "S.D.": 0.571
+        }
+    ],
+    "BLINK - Relative Depth": [
+        {
+            "BLINK - Relative Depth": "QWEN base ",
+            "Test 1": 51.61,
+            "Test 2": 51.61,
+            "Test 3": 51.61,
+            "Mean": 51.61,
+            "S.D.": 0.0
+        },
+        {
+            "BLINK - Relative Depth": "Qwen Finetuned",
+            "Test 1": 55.65,
+            "Test 2": 56.54,
+            "Test 3": 54.84,
+            "Mean": 55.68,
+            "S.D.": 0.69
+        }
+    ],
+    "InternVL (Joshua)": [
+        {
+            "q1 - coarse - jta": "34.66%",
+            "q1 - granular - jta": "32.26%",
+            "q1 - granular - kitti": "24.15%",
+            "q1 - coarse - kitti": "34.12%",
+            "q2 - coarse - coco": "26.22%",
+            "q2 - granular - coco": "19.71%",
+            "q2 - coarse - cityscapes": "19.63%",
+            "q2 - granular - cityscapes": "17.18%",
+            "q3 - coarse - objectron": "17.89%",
+            "q3 - coarse - 3d_future": "20.26%",
+            "q3 - granular - 3d_future": "17.70%",
+            "q3 - granular - objectron": "18.40%",
+            "q4 - coarse - get_3d": "19.87%",
+            "q4 - granular - omniobject3d": "4.38%",
+            "q4 - granular - get_3d": "6.77%",
+            "q4 - coarse - omniobject3d": "8.51%",
+            "q4 - coarse - shapenet": "15.88%",
+            "q4 - granular - shapenet": "7.00%",
+            "q5 - granular - 3d_future": "12.65%",
+            "q5 - granular - nocs_real": "10.46%",
+            "q5 - coarse - 3d_future": "18.13%",
+            "q5 - coarse - nocs_real": "9.42%",
+            "q6 - coarse - get_3d": "69.12%",
+            "q6 - granular - get_3d": "20.52%",
+            "q6 - coarse - shapenet": "80.66%",
+            "q6 - coarse - omniobject3d": "32.79%",
+            "q6 - granular - shapenet": "22.55%",
+            "q6 - granular - omniobject3d": "11.48%",
+            "q7 - coarse - coco_space_sea": "5.39%",
+            "q7 - granular - coco_space_sea": "10.48%"
+        },
+        {
+            "q1 coarse": "34.35%",
+            "q1 granular": "28.17%",
+            "q2 coarse": "22.89%",
+            "q2 granular": "18.42%",
+            "q3 coarse": "19.05%",
+            "q3 granular": "18.02%",
+            "q4 coarse": "14.74%",
+            "q4 granular": "6.05%",
+            "q5 coarse": "13.76%",
+            "q5 granular": "11.55%",
+            "q6 coarse": "60.79%",
+            "q6 granular": "18.16%",
+            "q7 coarse": "5.38%",
+            "q7 granular": "10.47%"
+        }
+    ]
+}
